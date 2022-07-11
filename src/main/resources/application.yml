@@ -1,0 +1,17 @@
+server:
+  port: 9000
+
+#阿里短信服务
+aliyun:
+  msm:
+    access-key-id: #你的accessKeyId
+    access-key-secret: #你的accessKeySecret
+    sign-name: #你的签名名称
+    template-code: #你的模板code
+
+#redis配置
+spring:
+  redis:
+    host: #redis主机地址
+    port: #端口号
+    password: #密码
